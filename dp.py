@@ -22,9 +22,9 @@ def solve(inputString):
       longestSubstring = longestSubstring + inputString[i - 1] 
   return longestSubstring 
 
-  if __name__ == "__main__":
-    inputFileName = str(sys.argv[1])
-    inputFile = open(inputFileName, "r")
-    inputString = inputFile.read()
-    inputFile.close()
-    print(solve(inputString))
+if __name__ == "__main__":
+  inputFileName = str(sys.argv[1])
+  inputFile = open(inputFileName, "r")
+  inputString = inputFile.read()
+  inputFile.close()
+  print(solve(inputString))
