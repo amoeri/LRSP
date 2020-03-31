@@ -1,3 +1,5 @@
+! This repo is not fully completed.
+
 # LRSP
 ## Introduction
 The [longest repeated substring problem](https://en.wikipedia.org/wiki/Longest_repeated_substring_problem), sometimes also called longest common duplicate, also with the addition of non-overlapping, is the problem of finding the longest substring of a string that occurs at least twice.
