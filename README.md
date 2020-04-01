@@ -36,7 +36,7 @@ For the purpose of using it as an exercise to be handed out, you'll find in this
 ### Generator
 Run `generator.py` with parameters `[substring] [magnitude] [output]`
 - `substring`: Any desired string that should occur at least twice in the string and should be the longest
-- `magnitude`: Generated string will have length of 10^magnitude
+- `magnitude`: Generated string will have length of 2^magnitude
 - `output`: Output's file path/name, where to store the generated string
 
 For example `py generator.py ThisIsSoAwesome9000 8 data.txt`
